@@ -43,9 +43,18 @@ print(fruits)
 
 
 
-
 # Bonus: Custom Module
 print("\nCustom Module")
 
 from my_module import my_module
 print(my_module.my_favorite_number)
+
+
+
+# Exercises
+print("\nExercises")
+
+# 1. Randomly select a name from a list of names and print it.
+names = ["Alice", "Bob", "Charlie", "David", "Eve"]
+random_name = random.choice(names)
+print(f"Randomly selected name: {random_name}")

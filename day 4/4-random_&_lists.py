@@ -22,3 +22,7 @@ print(random_number)
 
 
 
+# Bonus: Custom Module
+
+from my_module import my_module
+print(my_module.my_favorite_number)
